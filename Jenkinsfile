@@ -2,7 +2,6 @@ pipeline {
     agent  {
           label 'docker'
     }
-    /*
 
   options {
     timeout(time: 2, unit: 'MINUTES')
